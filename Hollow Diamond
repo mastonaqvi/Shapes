@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     int row, spc, col;
 
-    // Upper part of the hollow diamond
+    // Upper the part of the hollow diamond
     for (row = 1; row <= 4; row++) {
         for (spc = 1; spc <= 4 - row; spc++) {
             cout << " ";
