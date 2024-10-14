@@ -5,6 +5,9 @@ int main() {
     int row, spc, col;
 
     // Upper the part of the hollow diamond
+
+     cout<<"Hollow Diamond "<<endl;
+
     for (row = 1; row <= 4; row++) {
         for (spc = 1; spc <= 4 - row; spc++) {
             cout << " ";
