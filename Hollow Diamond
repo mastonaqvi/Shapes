@@ -22,7 +22,7 @@ int main() {
         cout << endl;
     }
 
-    // Lower part of the hollow DIAMOND
+    // Lower part of the hollow Diamond
     for (row = 4 - 1; row >= 1; row--) {
         for (spc = 1; spc <= 4 - row; spc++) {
             cout << " ";
